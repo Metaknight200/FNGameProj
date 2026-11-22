@@ -1,0 +1,5 @@
+#include "SpecialRelevancyMultiSquadControllerGroupsContainer.h"
+
+FSpecialRelevancyMultiSquadControllerGroupsContainer::FSpecialRelevancyMultiSquadControllerGroupsContainer() {
+}
+

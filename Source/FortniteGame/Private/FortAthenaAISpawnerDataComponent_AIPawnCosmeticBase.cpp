@@ -1,0 +1,6 @@
+#include "FortAthenaAISpawnerDataComponent_AIPawnCosmeticBase.h"
+
+UFortAthenaAISpawnerDataComponent_AIPawnCosmeticBase::UFortAthenaAISpawnerDataComponent_AIPawnCosmeticBase() {
+}
+
+

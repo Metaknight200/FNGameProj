@@ -1,0 +1,19 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ScalableFloat.h"
+#include "FortAthenaMutator.h"
+#include "FortAthenaMutator_ControlOnVictoryTimeDilation.generated.h"
+
+UCLASS(Blueprintable)
+class AFortAthenaMutator_ControlOnVictoryTimeDilation : public AFortAthenaMutator {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat bAllowEndGameTimeDilation;
+    
+public:
+    AFortAthenaMutator_ControlOnVictoryTimeDilation(const FObjectInitializer& ObjectInitializer);
+
+};
+

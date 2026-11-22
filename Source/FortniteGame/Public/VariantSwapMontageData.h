@@ -1,0 +1,25 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GameplayTagContainer.h"
+#include "VariantSwapMontagePartRequirement.h"
+#include "VariantSwapMontageData.generated.h"
+
+USTRUCT(BlueprintType)
+struct FVariantSwapMontageData {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FName MontageSectionName;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGameplayTag VariantMetaTagRequired;
+    
+    UPROPERTY(AdvancedDisplay, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bRequireCharacterPart;
+    
+    UPROPERTY(AdvancedDisplay, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<FVariantSwapMontagePartRequirement> PartRequirements;
+    
+    FORTNITEGAME_API FVariantSwapMontageData();
+};
+

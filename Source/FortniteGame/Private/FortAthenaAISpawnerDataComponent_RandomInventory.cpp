@@ -1,0 +1,6 @@
+#include "FortAthenaAISpawnerDataComponent_RandomInventory.h"
+
+UFortAthenaAISpawnerDataComponent_RandomInventory::UFortAthenaAISpawnerDataComponent_RandomInventory() {
+}
+
+

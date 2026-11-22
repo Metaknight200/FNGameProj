@@ -1,0 +1,6 @@
+#include "FortQueryContext_NearbyFriendlyAIPawnsAndPlayerPawns.h"
+
+UFortQueryContext_NearbyFriendlyAIPawnsAndPlayerPawns::UFortQueryContext_NearbyFriendlyAIPawnsAndPlayerPawns() {
+}
+
+

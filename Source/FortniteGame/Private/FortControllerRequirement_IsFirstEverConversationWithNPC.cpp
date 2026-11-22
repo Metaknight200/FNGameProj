@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_IsFirstEverConversationWithNPC.h"
+
+UFortControllerRequirement_IsFirstEverConversationWithNPC::UFortControllerRequirement_IsFirstEverConversationWithNPC() {
+}
+
+

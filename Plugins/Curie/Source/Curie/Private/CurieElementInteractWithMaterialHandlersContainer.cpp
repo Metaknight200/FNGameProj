@@ -1,0 +1,5 @@
+#include "CurieElementInteractWithMaterialHandlersContainer.h"
+
+FCurieElementInteractWithMaterialHandlersContainer::FCurieElementInteractWithMaterialHandlersContainer() {
+}
+

@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_CheckNPCMatchConversationCount.h"
+
+UFortControllerRequirement_CheckNPCMatchConversationCount::UFortControllerRequirement_CheckNPCMatchConversationCount() {
+}
+
+

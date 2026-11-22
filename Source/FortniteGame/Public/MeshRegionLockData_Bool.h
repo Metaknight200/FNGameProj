@@ -1,0 +1,15 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "MeshRegionLockData_Base.h"
+#include "MeshRegionLockData_Bool.generated.h"
+
+USTRUCT(BlueprintType)
+struct FORTNITEGAME_API FMeshRegionLockData_Bool : public FMeshRegionLockData_Base {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool Data;
+    
+    FMeshRegionLockData_Bool();
+};
+

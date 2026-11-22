@@ -1,0 +1,5 @@
+#include "FortControllerMiniMapComponentVisibilitiesArray.h"
+
+FFortControllerMiniMapComponentVisibilitiesArray::FFortControllerMiniMapComponentVisibilitiesArray() {
+}
+

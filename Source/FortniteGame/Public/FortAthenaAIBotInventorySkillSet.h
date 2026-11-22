@@ -1,0 +1,49 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ScalableFloat.h"
+#include "GameplayTagContainer.h"
+#include "BotEquipWeaponInfo.h"
+#include "FortAthenaAIBotSkillSet.h"
+#include "WeaponAmmoCheat.h"
+#include "FortAthenaAIBotInventorySkillSet.generated.h"
+
+UCLASS(Blueprintable, EditInlineNew)
+class UFortAthenaAIBotInventorySkillSet : public UFortAthenaAIBotSkillSet {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat DefaultWeaponSelectionDistance;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat DefaultWeaponSelectionDistanceDeviation;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat HasInfiniteResources;
+    
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGameplayTagContainer InventorySlotPreference[6];
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<FBotEquipWeaponInfo> EquipWeaponInfo;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    TArray<FWeaponAmmoCheat> AmmoCheats;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat NoWeaponGiveWeaponAfterTime;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat NoWeaponNoPlayerConeDistance;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat NoWeaponNoPlayerConeFOV;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FName NoWeaponLootTierGroup;
+    
+public:
+    UFortAthenaAIBotInventorySkillSet();
+
+};
+

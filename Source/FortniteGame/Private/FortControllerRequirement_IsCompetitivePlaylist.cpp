@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_IsCompetitivePlaylist.h"
+
+UFortControllerRequirement_IsCompetitivePlaylist::UFortControllerRequirement_IsCompetitivePlaylist() {
+}
+
+

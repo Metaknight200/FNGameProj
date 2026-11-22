@@ -1,0 +1,30 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "AthenaCosmeticItemDefinition.h"
+#include "AthenaItemWrapDefinition.generated.h"
+
+class ACustomItemWrapModifier;
+class UMaterialInterface;
+
+UCLASS(Blueprintable)
+class FORTNITEGAME_API UAthenaItemWrapDefinition : public UAthenaCosmeticItemDefinition {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="Equipped"))
+    TSoftClassPtr<ACustomItemWrapModifier> ItemWrapModifierBlueprint;
+    
+private:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="Equipped"))
+    TSoftObjectPtr<UMaterialInterface> ItemWrapMaterial;
+    
+public:
+    UAthenaItemWrapDefinition();
+
+public:
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaItemWrap", GetFName());
+    }
+};
+

@@ -1,0 +1,12 @@
+#include "FortPlayerStateComponent_CustomFeedMessage.h"
+
+UFortPlayerStateComponent_CustomFeedMessage::UFortPlayerStateComponent_CustomFeedMessage(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+}
+
+void UFortPlayerStateComponent_CustomFeedMessage::NetMulticastTriggerCustomFeedMessageWithContext_Implementation(const FGameplayTag CustomFeedMessageGeneratorID, FCustomFeedMessageContext Context) {
+}
+
+void UFortPlayerStateComponent_CustomFeedMessage::NetMulticastTriggerCustomFeedMessage_Implementation(const FGameplayTag CustomFeedMessageGeneratorID) {
+}
+
+

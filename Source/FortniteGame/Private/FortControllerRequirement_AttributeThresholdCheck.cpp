@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_AttributeThresholdCheck.h"
+
+UFortControllerRequirement_AttributeThresholdCheck::UFortControllerRequirement_AttributeThresholdCheck() {
+}
+
+

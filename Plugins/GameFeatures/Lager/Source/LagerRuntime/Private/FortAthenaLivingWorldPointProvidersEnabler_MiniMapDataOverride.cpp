@@ -1,0 +1,6 @@
+#include "FortAthenaLivingWorldPointProvidersEnabler_MiniMapDataOverride.h"
+
+AFortAthenaLivingWorldPointProvidersEnabler_MiniMapDataOverride::AFortAthenaLivingWorldPointProvidersEnabler_MiniMapDataOverride(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+}
+
+

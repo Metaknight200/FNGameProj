@@ -1,0 +1,5 @@
+#include "SkyfireBackpackComponentInitializerAssetNamesStruct.h"
+
+FSkyfireBackpackComponentInitializerAssetNamesStruct::FSkyfireBackpackComponentInitializerAssetNamesStruct() {
+}
+

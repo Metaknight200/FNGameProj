@@ -1,0 +1,59 @@
+#include "LevelSaveBaseComponent.h"
+
+ULevelSaveBaseComponent::ULevelSaveBaseComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+    this->TimeBetweenSaves = 0.00f;
+    this->bAutoLoadRecord = false;
+    this->LevelRecord = NULL;
+}
+
+void ULevelSaveBaseComponent::StopPeriodicSaveTimer() {
+}
+
+void ULevelSaveBaseComponent::StartPeriodicSaveTimer() {
+}
+
+void ULevelSaveBaseComponent::SaveOutLevelRecord() {
+}
+
+bool ULevelSaveBaseComponent::ResaveLevelStreamedActor(AActor* Actor) {
+    return false;
+}
+
+bool ULevelSaveBaseComponent::ResaveActor(AActor* Actor) {
+    return false;
+}
+
+bool ULevelSaveBaseComponent::RegisterNewActor(AActor* Actor) {
+    return false;
+}
+
+void ULevelSaveBaseComponent::RegisterModificationToRollback(AActor* Actor) {
+}
+
+bool ULevelSaveBaseComponent::RegisteredDeletedLevelStreamedActor(AActor* Actor) {
+    return false;
+}
+
+void ULevelSaveBaseComponent::RegisterDeletionToRollback(AActor* Actor) {
+}
+
+bool ULevelSaveBaseComponent::RegisterDeletedActor(AActor* Actor) {
+    return false;
+}
+
+void ULevelSaveBaseComponent::RegisterCreationToRollback(AActor* Actor) {
+}
+
+void ULevelSaveBaseComponent::OnFinishSpawning(const FAsyncTaskResult& Result) {
+}
+
+void ULevelSaveBaseComponent::OnFinishedRecordWrite(const FAsyncTaskResult& Result) {
+}
+
+void ULevelSaveBaseComponent::LoadLevelRecord() {
+}
+
+void ULevelSaveBaseComponent::ConstructNewLevelRecord(AActor* Owner) {
+}
+
+

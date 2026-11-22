@@ -1,0 +1,23 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ScalableFloat.h"
+#include "ClientAILODSettings.generated.h"
+
+USTRUCT(BlueprintType)
+struct FClientAILODSettings {
+    GENERATED_BODY()
+public:
+private:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat ScoreMultiplier;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat PreloadingPriorityOverride;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FScalableFloat bSupportCharacterMovementOptimization;
+    
+public:
+    FORTNITEGAME_API FClientAILODSettings();
+};
+

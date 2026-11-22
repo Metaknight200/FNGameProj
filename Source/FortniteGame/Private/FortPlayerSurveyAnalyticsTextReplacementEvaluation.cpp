@@ -1,0 +1,5 @@
+#include "FortPlayerSurveyAnalyticsTextReplacementEvaluation.h"
+
+FFortPlayerSurveyAnalyticsTextReplacementEvaluation::FFortPlayerSurveyAnalyticsTextReplacementEvaluation() {
+}
+

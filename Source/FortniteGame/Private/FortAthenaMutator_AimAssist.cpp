@@ -1,0 +1,13 @@
+#include "FortAthenaMutator_AimAssist.h"
+
+AFortAthenaMutator_AimAssist::AFortAthenaMutator_AimAssist(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+    this->bAlwaysRelevant = true;
+    this->bReplicates = true;
+    const FProperty* p_RemoteRole = GetClass()->FindPropertyByName("RemoteRole");
+    (*p_RemoteRole->ContainerPtrToValuePtr<TEnumAsByte<ENetRole>>(this)) = ROLE_SimulatedProxy;
+    this->bMutatorActive = true;
+    this->bMutatesGameState = true;
+    this->bAimAssistAllowed = true;
+}
+
+

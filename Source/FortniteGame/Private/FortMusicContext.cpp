@@ -1,0 +1,18 @@
+#include "FortMusicContext.h"
+
+UFortMusicContext::UFortMusicContext() {
+    this->DesiredActiveMusicPack = NULL;
+}
+
+void UFortMusicContext::SetActiveMusicPack(const UAthenaMusicPackItemDefinition* NewMusicPack, float StartTimeOffset) {
+}
+
+bool UFortMusicContext::IsDefaultMusicEquipped() {
+    return false;
+}
+
+UAthenaMusicPackItemDefinition* UFortMusicContext::GetEquippedMusicPack() {
+    return NULL;
+}
+
+

@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_AttributeAsZeroToOneOfMaxThresholdCheck.h"
+
+UFortControllerRequirement_AttributeAsZeroToOneOfMaxThresholdCheck::UFortControllerRequirement_AttributeAsZeroToOneOfMaxThresholdCheck() {
+}
+
+

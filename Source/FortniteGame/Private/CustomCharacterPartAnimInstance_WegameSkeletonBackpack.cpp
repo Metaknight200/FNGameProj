@@ -1,0 +1,6 @@
+#include "CustomCharacterPartAnimInstance_WegameSkeletonBackpack.h"
+
+UCustomCharacterPartAnimInstance_WegameSkeletonBackpack::UCustomCharacterPartAnimInstance_WegameSkeletonBackpack() {
+}
+
+

@@ -1,0 +1,19 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "CommonButtonLegacy.h"
+#include "FortBangWrapperContentInterface.h"
+#include "FortBangWrapperContentButton.generated.h"
+
+UCLASS(Abstract, Blueprintable, EditInlineNew)
+class UFortBangWrapperContentButton : public UCommonButtonLegacy, public IFortBangWrapperContentInterface {
+    GENERATED_BODY()
+public:
+    UFortBangWrapperContentButton();
+
+    UFUNCTION(BlueprintCallable)
+    void FinishTutorialCallout();
+    
+
+    // Fix for true pure virtual functions not being implemented
+};
+
