@@ -1,0 +1,94 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "MoleAudio",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleEnvironments",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGame",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameNative",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleProps",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Cafeteria",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Electrical",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Factory",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_IslandMonitoring",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Office",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_RepairShop",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_ResearchLab",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Security",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_SleepingQuarters",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_StormControl",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TheBridge",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TheLoop",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TravelTasks",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_VisitorCSI",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_WeaponsLab",
+      "Enabled": true
+    }
+  ]
+}

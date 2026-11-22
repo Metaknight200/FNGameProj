@@ -1,0 +1,68 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "BattlePassS17UI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "BattlePassBase",
+      "Enabled": true
+    },
+    {
+      "Name": "BattlePassPermanentQuests",
+      "Enabled": true
+    },
+    {
+      "Name": "Bounties",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUILegacy",
+      "Enabled": true
+    },
+    {
+      "Name": "FortniteConversation",
+      "Enabled": true
+    },
+    {
+      "Name": "Irwin",
+      "Enabled": true
+    },
+    {
+      "Name": "Lager",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGround",
+      "Enabled": true
+    },
+    {
+      "Name": "NPCLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineGameplayFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "Slone",
+      "Enabled": true
+    }
+  ]
+}

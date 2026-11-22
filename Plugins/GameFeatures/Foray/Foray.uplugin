@@ -1,0 +1,46 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "Curie",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "NetworkPrediction",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "Valet",
+      "Enabled": true
+    },
+    {
+      "Name": "Water",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "PapayaTimedEvents",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "MeshNetwork",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "PlayspaceSystem",
+      "Enabled": true
+    }
+  ]
+}

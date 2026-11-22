@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "NVIDIA Shadowplay Highlights SDK Plugin",
+  "Description": "NVIDIA GeForce SDK with Shadowplay Highlights",
+  "Category": "Other",
+  "CreatedBy": "NVIDIA",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "NVIDIAGfeSDK",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

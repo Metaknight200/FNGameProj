@@ -1,0 +1,50 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "Crafting",
+      "Enabled": true
+    },
+    {
+      "Name": "Curie",
+      "Enabled": true
+    },
+    {
+      "Name": "FortniteConversation",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "Irwin",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "PrimalGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Valet",
+      "Enabled": true
+    }
+  ]
+}

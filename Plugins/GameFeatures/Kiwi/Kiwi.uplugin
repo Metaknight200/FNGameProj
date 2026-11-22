@@ -1,0 +1,64 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "KiwiRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "AwfulDuck",
+      "Enabled": true
+    },
+    {
+      "Name": "Curie",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "Irwin",
+      "Enabled": true
+    },
+    {
+      "Name": "KiwiPlaylist",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Nevada",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "Skyfire",
+      "Enabled": true
+    },
+    {
+      "Name": "SpecialEventCountdown",
+      "Enabled": true
+    },
+    {
+      "Name": "SpecialEventGameplay",
+      "Enabled": true
+    }
+  ]
+}

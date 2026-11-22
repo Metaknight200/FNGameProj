@@ -1,0 +1,68 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "MoleGameRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "Curie",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayMessages",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateMachine",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleHubNative",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineGameplayFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "PlayspaceSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "ReplicationGraph",
+      "Enabled": true
+    },
+    {
+      "Name": "TargetingSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "ValkyrieEngine",
+      "Enabled": true
+    }
+  ]
+}

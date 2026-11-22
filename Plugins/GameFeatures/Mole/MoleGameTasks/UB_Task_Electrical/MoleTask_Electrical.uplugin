@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "MoleAudio",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGame",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameBalance",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameNative",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleProps",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Generic",
+      "Enabled": true
+    }
+  ]
+}

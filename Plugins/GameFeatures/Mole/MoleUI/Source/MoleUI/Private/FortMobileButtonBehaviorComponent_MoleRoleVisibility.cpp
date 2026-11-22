@@ -1,0 +1,6 @@
+#include "FortMobileButtonBehaviorComponent_MoleRoleVisibility.h"
+
+UFortMobileButtonBehaviorComponent_MoleRoleVisibility::UFortMobileButtonBehaviorComponent_MoleRoleVisibility() {
+}
+
+

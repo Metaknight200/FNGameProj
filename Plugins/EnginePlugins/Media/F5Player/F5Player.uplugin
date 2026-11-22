@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "0.1",
+  "FriendlyName": "F5 Player",
+  "Description": "Next-generation playback capability.",
+  "Category": "Media Players",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "F5PlayerFactory",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ElectraPlayer",
+      "Enabled": true
+    },
+    {
+      "Name": "ElectraUtil",
+      "Enabled": true
+    }
+  ]
+}

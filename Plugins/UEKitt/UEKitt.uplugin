@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "0.1",
+  "FriendlyName": "UEKitt Plugin",
+  "Description": "",
+  "Category": "Graphics",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "UEKittTexture",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ElectraPlayer",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "NiagaraStaging",
+  "Description": "Niagara Modules can be tested here before being commited to the Niagara Content Plugin.",
+  "Category": "Other",
+  "CreatedBy": "Jonathan Lindquist",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    }
+  ]
+}

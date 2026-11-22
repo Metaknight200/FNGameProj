@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "0.1",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "Graphics",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "ElectraUtil",
+      "Enabled": true
+    }
+  ]
+}

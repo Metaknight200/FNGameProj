@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "MotherGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherWall",
+      "Enabled": true
+    },
+    {
+      "Name": "NPCLibrary",
+      "Enabled": true
+    }
+  ]
+}

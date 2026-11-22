@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1",
+  "FriendlyName": "UAC",
+  "Description": "Behave or get out",
+  "Category": "UAC",
+  "CreatedBy": "Epic Games, Inc",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "UACCommon",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

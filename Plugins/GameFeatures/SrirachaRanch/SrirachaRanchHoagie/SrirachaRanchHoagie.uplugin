@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "SrirachaRanchHoagie",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Hoagie",
+      "Enabled": true
+    },
+    {
+      "Name": "SrirachaRanch",
+      "Enabled": true
+    }
+  ]
+}

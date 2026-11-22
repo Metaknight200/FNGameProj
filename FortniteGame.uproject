@@ -1,0 +1,1050 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "../UE-4.26.1-release",
+  "Category": "",
+  "Description": "Fortnite 17.50 CL 17388565 reflected class reconstruction",
+  "Modules": [
+    {
+      "Name": "CoreOnline",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "EasyAntiCheatCommon",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FortniteEngineLoadingScreen",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FortniteGame",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FortniteUI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "LauncherSocialDefaults",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "LocalNotifications",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FortniteCompatibility",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "FortniteEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ACLPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "AGM_BattleRoyale",
+      "Enabled": true
+    },
+    {
+      "Name": "AbilitySystemGameFeatureActions",
+      "Enabled": true
+    },
+    {
+      "Name": "AmbientAudio",
+      "Enabled": true
+    },
+    {
+      "Name": "AnalyticsBlueprintLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "AndroidPermission",
+      "Enabled": true
+    },
+    {
+      "Name": "AnimationBudgetAllocator",
+      "Enabled": true
+    },
+    {
+      "Name": "AnimationSharing",
+      "Enabled": true
+    },
+    {
+      "Name": "AssetTags",
+      "Enabled": true
+    },
+    {
+      "Name": "AthenaAIFunctionalTest",
+      "Enabled": true
+    },
+    {
+      "Name": "AudioGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "AudioGameplayVolume",
+      "Enabled": true
+    },
+    {
+      "Name": "AudioSynesthesia",
+      "Enabled": true
+    },
+    {
+      "Name": "AutomationUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "AvfMedia",
+      "Enabled": true
+    },
+    {
+      "Name": "AwfulDuck",
+      "Enabled": true
+    },
+    {
+      "Name": "BattlePassBase",
+      "Enabled": true
+    },
+    {
+      "Name": "BattlePassPermanentQuests",
+      "Enabled": true
+    },
+    {
+      "Name": "BattleRoyale",
+      "Enabled": true
+    },
+    {
+      "Name": "BattlepassS17",
+      "Enabled": true
+    },
+    {
+      "Name": "BlueprintContext",
+      "Enabled": true
+    },
+    {
+      "Name": "Bodyguard",
+      "Enabled": true
+    },
+    {
+      "Name": "Bounties",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Campfire",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Clapboard",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Crashpad",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_DBNO",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_EmoteController",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_FishingZone",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_GameEnd",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_HUDController",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_HealPowerup",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_HoagieSpawner",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_ItemRemover",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_LlamatronV2",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Mannequin",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Melee",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_NevadaSpawner",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Papaya_Dance_Mannequin",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PhoneBooth",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PlayerCheckpointProp",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PlayerRef",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PlayerSpawn",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PointLight",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_PropManipulationDevice",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_RacingCheckpoint",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_RealTimeClock",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_SavePoint",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_SkydomeDevice",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_StageLight",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Store",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_Switch",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_VFX_Spawner",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_VehicleSpawners",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_VolumetricRegion",
+      "Enabled": true
+    },
+    {
+      "Name": "CRD_WildlifeSpawner",
+      "Enabled": true
+    },
+    {
+      "Name": "CRG_LazyLinks",
+      "Enabled": true
+    },
+    {
+      "Name": "CRG_TRV",
+      "Enabled": true
+    },
+    {
+      "Name": "CRP_LazyLinks",
+      "Enabled": true
+    },
+    {
+      "Name": "CRP_TRV",
+      "Enabled": true
+    },
+    {
+      "Name": "CRP_TorchLight",
+      "Enabled": true
+    },
+    {
+      "Name": "CableComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "Cashier",
+      "Enabled": true
+    },
+    {
+      "Name": "ChaosCloth",
+      "Enabled": true
+    },
+    {
+      "Name": "ChaosNiagara",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonConversation",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUILegacy",
+      "Enabled": true
+    },
+    {
+      "Name": "ControlFlows",
+      "Enabled": true
+    },
+    {
+      "Name": "ControlRig",
+      "Enabled": true
+    },
+    {
+      "Name": "CosmosGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Crafting",
+      "Enabled": true
+    },
+    {
+      "Name": "CreativeTests",
+      "Enabled": true
+    },
+    {
+      "Name": "Curie",
+      "Enabled": true
+    },
+    {
+      "Name": "DLSS",
+      "Enabled": true
+    },
+    {
+      "Name": "DataRegistry",
+      "Enabled": true
+    },
+    {
+      "Name": "DiscordRPC",
+      "Enabled": true
+    },
+    {
+      "Name": "DiscoveryBrowser",
+      "Enabled": true
+    },
+    {
+      "Name": "DynamicHUD",
+      "Enabled": true
+    },
+    {
+      "Name": "EOSGameStreaming",
+      "Enabled": true
+    },
+    {
+      "Name": "EOSMediaPlayer",
+      "Enabled": true
+    },
+    {
+      "Name": "EOSRTCVideo",
+      "Enabled": true
+    },
+    {
+      "Name": "EditableMesh",
+      "Enabled": true
+    },
+    {
+      "Name": "EffectZones",
+      "Enabled": true
+    },
+    {
+      "Name": "EntityActor",
+      "Enabled": true
+    },
+    {
+      "Name": "EntityCore",
+      "Enabled": true
+    },
+    {
+      "Name": "EpicCMS",
+      "Enabled": true
+    },
+    {
+      "Name": "EpicCMSUIFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "EpicGameplayStats",
+      "Enabled": true
+    },
+    {
+      "Name": "EsportsCamera",
+      "Enabled": true
+    },
+    {
+      "Name": "EventMode",
+      "Enabled": true
+    },
+    {
+      "Name": "F5Player",
+      "Enabled": true
+    },
+    {
+      "Name": "FacialAnimSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "Foray",
+      "Enabled": true
+    },
+    {
+      "Name": "FortSoundCueTemplates",
+      "Enabled": true
+    },
+    {
+      "Name": "FortWater",
+      "Enabled": true
+    },
+    {
+      "Name": "FortniteConversation",
+      "Enabled": true
+    },
+    {
+      "Name": "FortniteEarlyStartupPatcher",
+      "Enabled": true
+    },
+    {
+      "Name": "ForwardingChannels",
+      "Enabled": true
+    },
+    {
+      "Name": "FreshCheese",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "GameHubNative",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayBehaviors",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayCameras",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayMessages",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateMachine",
+      "Enabled": true
+    },
+    {
+      "Name": "Gauntlet",
+      "Enabled": true
+    },
+    {
+      "Name": "GeometryCollectionPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "Gifting",
+      "Enabled": true
+    },
+    {
+      "Name": "GooglePAD",
+      "Enabled": true
+    },
+    {
+      "Name": "HermesPlaysets",
+      "Enabled": true
+    },
+    {
+      "Name": "Hitchhiker",
+      "Enabled": true
+    },
+    {
+      "Name": "Hoagie",
+      "Enabled": true
+    },
+    {
+      "Name": "Hydrogen",
+      "Enabled": true
+    },
+    {
+      "Name": "IO_Guard",
+      "Enabled": true
+    },
+    {
+      "Name": "ImagePlate",
+      "Enabled": true
+    },
+    {
+      "Name": "Irwin",
+      "Enabled": true
+    },
+    {
+      "Name": "KairosSceneCapture",
+      "Enabled": true
+    },
+    {
+      "Name": "Kiwi",
+      "Enabled": true
+    },
+    {
+      "Name": "KiwiPlaylist",
+      "Enabled": true
+    },
+    {
+      "Name": "Knockback",
+      "Enabled": true
+    },
+    {
+      "Name": "Labrador",
+      "Enabled": true
+    },
+    {
+      "Name": "Lager",
+      "Enabled": true
+    },
+    {
+      "Name": "Landmass",
+      "Enabled": true
+    },
+    {
+      "Name": "LatencyUI",
+      "Enabled": true
+    },
+    {
+      "Name": "LauncherSocial",
+      "Enabled": true
+    },
+    {
+      "Name": "LeadAlloy",
+      "Enabled": true
+    },
+    {
+      "Name": "LevelPartition",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveLink",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveLinkCurveDebugUI",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveStreamAnimation",
+      "Enabled": true
+    },
+    {
+      "Name": "LiveStreamVoice",
+      "Enabled": true
+    },
+    {
+      "Name": "MIDIDevice",
+      "Enabled": true
+    },
+    {
+      "Name": "Mantis",
+      "Enabled": true
+    },
+    {
+      "Name": "MediaMovieStreamer",
+      "Enabled": true
+    },
+    {
+      "Name": "Melt",
+      "Enabled": true
+    },
+    {
+      "Name": "MeshNetwork",
+      "Enabled": true
+    },
+    {
+      "Name": "ModularGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleAudio",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleCharacters",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleEnvironments",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGame",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameBalance",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameNative",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGameSabotages",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleHub",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleHubNative",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleMapUnderBase",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleProps",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Cafeteria",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Electrical",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Factory",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Generic",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_IslandMonitoring",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Office",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_RepairShop",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_ResearchLab",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_Security",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_ShootingGallery",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_SleepingQuarters",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_StormControl",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TheBridge",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TheLoop",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_TravelTasks",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_VisitorCSI",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleTask_WeaponsLab",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleUI",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGround",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherWall",
+      "Enabled": true
+    },
+    {
+      "Name": "MotoSynth",
+      "Enabled": true
+    },
+    {
+      "Name": "NPCLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "NVIDIAGfeSDK",
+      "Enabled": true
+    },
+    {
+      "Name": "NetUI",
+      "Enabled": true
+    },
+    {
+      "Name": "NetworkPrediction",
+      "Enabled": true
+    },
+    {
+      "Name": "Nevada",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "NiagaraFN",
+      "Enabled": true
+    },
+    {
+      "Name": "NiagaraStaging",
+      "Enabled": true
+    },
+    {
+      "Name": "NightNightMode",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineGameplayFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystem",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemMcp",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "Oodle",
+      "Enabled": true
+    },
+    {
+      "Name": "PapayaGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "PapayaHub",
+      "Enabled": true
+    },
+    {
+      "Name": "PapayaPostersBackup",
+      "Enabled": true
+    },
+    {
+      "Name": "Paper2D",
+      "Enabled": true
+    },
+    {
+      "Name": "Phosphorus",
+      "Enabled": true
+    },
+    {
+      "Name": "PhosphorusWipeout",
+      "Enabled": true
+    },
+    {
+      "Name": "PhysXVehicles",
+      "Enabled": true
+    },
+    {
+      "Name": "PlayspaceSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "PrimalGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "Procedural",
+      "Enabled": true
+    },
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "ProgressiveCosmetic",
+      "Enabled": true
+    },
+    {
+      "Name": "PurchaseFlow",
+      "Enabled": true
+    },
+    {
+      "Name": "Rebirth",
+      "Enabled": true
+    },
+    {
+      "Name": "ReplicationGraph",
+      "Enabled": true
+    },
+    {
+      "Name": "ResonanceAudio",
+      "Enabled": true
+    },
+    {
+      "Name": "SVGF",
+      "Enabled": true
+    },
+    {
+      "Name": "SaveTheWorld",
+      "Enabled": true
+    },
+    {
+      "Name": "SequencerScripting",
+      "Enabled": true
+    },
+    {
+      "Name": "SignificanceManager",
+      "Enabled": true
+    },
+    {
+      "Name": "Skyfire",
+      "Enabled": true
+    },
+    {
+      "Name": "Slone",
+      "Enabled": true
+    },
+    {
+      "Name": "SmartObjects",
+      "Enabled": true
+    },
+    {
+      "Name": "SocialUMG",
+      "Enabled": true
+    },
+    {
+      "Name": "SoundCueTemplates",
+      "Enabled": true
+    },
+    {
+      "Name": "SoundFields",
+      "Enabled": true
+    },
+    {
+      "Name": "SoundLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "SpatialGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "SpecialEventCountdown",
+      "Enabled": true
+    },
+    {
+      "Name": "SpecialEventGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "SpicySake",
+      "Enabled": true
+    },
+    {
+      "Name": "SrirachaRanch",
+      "Enabled": true
+    },
+    {
+      "Name": "SrirachaRanchHoagie",
+      "Enabled": true
+    },
+    {
+      "Name": "SrirachaRanchValet",
+      "Enabled": true
+    },
+    {
+      "Name": "StoreSelection",
+      "Enabled": true
+    },
+    {
+      "Name": "SubtitlesWidgets",
+      "Enabled": true
+    },
+    {
+      "Name": "Synthesis",
+      "Enabled": true
+    },
+    {
+      "Name": "Tailgate",
+      "Enabled": true
+    },
+    {
+      "Name": "Takes",
+      "Enabled": true
+    },
+    {
+      "Name": "TargetingSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "TemplateSequence",
+      "Enabled": true
+    },
+    {
+      "Name": "TimeSynth",
+      "Enabled": true
+    },
+    {
+      "Name": "Trophy",
+      "Enabled": true
+    },
+    {
+      "Name": "UAC",
+      "Enabled": true
+    },
+    {
+      "Name": "UEKitt",
+      "Enabled": true
+    },
+    {
+      "Name": "UdpMessaging",
+      "Enabled": true
+    },
+    {
+      "Name": "Umami",
+      "Enabled": true
+    },
+    {
+      "Name": "VKEdit",
+      "Enabled": true
+    },
+    {
+      "Name": "VKEditLobby",
+      "Enabled": true
+    },
+    {
+      "Name": "Valet",
+      "Enabled": true
+    },
+    {
+      "Name": "ValetMods",
+      "Enabled": true
+    },
+    {
+      "Name": "ValkyrieEngine",
+      "Enabled": true
+    },
+    {
+      "Name": "ValkyrieTests",
+      "Enabled": true
+    },
+    {
+      "Name": "Vendetta",
+      "Enabled": true
+    },
+    {
+      "Name": "VirtualHeightfieldMesh",
+      "Enabled": true
+    },
+    {
+      "Name": "Volumetrics_FN",
+      "Enabled": true
+    },
+    {
+      "Name": "VotingFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "Water",
+      "Enabled": true
+    },
+    {
+      "Name": "WmfMedia",
+      "Enabled": true
+    },
+    {
+      "Name": "York",
+      "Enabled": true
+    },
+    {
+      "Name": "WindowsDeviceProfileSelector",
+      "Enabled": true
+    }
+  ],
+  "TargetPlatforms": [
+    "WindowsNoEditor"
+  ]
+}

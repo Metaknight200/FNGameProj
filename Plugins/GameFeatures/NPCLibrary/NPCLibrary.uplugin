@@ -1,0 +1,34 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "BattlePassPermanentQuests",
+      "Enabled": true
+    },
+    {
+      "Name": "Bounties",
+      "Enabled": true
+    },
+    {
+      "Name": "FortniteConversation",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "PrimalGameplay",
+      "Enabled": true
+    }
+  ]
+}

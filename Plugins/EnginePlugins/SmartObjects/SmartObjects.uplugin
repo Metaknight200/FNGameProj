@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "Smart Objects",
+  "Description": "Support for ambient life populating the game world",
+  "Category": "Gameplay",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "SmartObjectsModule",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayBehaviors",
+      "Enabled": true
+    }
+  ]
+}

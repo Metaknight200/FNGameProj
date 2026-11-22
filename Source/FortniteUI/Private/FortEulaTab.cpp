@@ -1,0 +1,13 @@
+#include "FortEulaTab.h"
+
+UFortEulaTab::UFortEulaTab() {
+    this->Text_EULA = NULL;
+    this->Switcher_TextSpinner = NULL;
+    this->ScrollBox_EULAText = NULL;
+    this->Image_Spinner = NULL;
+}
+
+void UFortEulaTab::HandleDownloadEULAComplete(bool bSuccessful, FText EULAText, const FString& Key) {
+}
+
+

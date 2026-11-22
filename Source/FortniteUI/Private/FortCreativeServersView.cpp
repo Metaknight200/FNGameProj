@@ -1,0 +1,21 @@
+#include "FortCreativeServersView.h"
+
+UFortCreativeServersView::UFortCreativeServersView() {
+    this->MaxSuggestedServers = 3;
+    this->bShowDebugServers = false;
+    this->TileItemClass = NULL;
+    this->ServerButtonGroup = NULL;
+    this->ScrollBox_ServerList = NULL;
+}
+
+void UFortCreativeServersView::RefreshServerList() {
+}
+
+
+void UFortCreativeServersView::NavigateServerRight() {
+}
+
+void UFortCreativeServersView::NavigateServerLeft() {
+}
+
+

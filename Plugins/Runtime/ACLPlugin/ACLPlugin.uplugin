@@ -1,0 +1,26 @@
+{
+  "FileVersion": 3,
+  "Version": 20000,
+  "VersionName": "2.0.0-17.50-editor",
+  "FriendlyName": "Animation Compression Library",
+  "Description": "Use the Animation Compression Library (ACL) to compress AnimSequences.",
+  "Category": "Animation",
+  "CreatedBy": "Nicholas Frechette",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "ACLPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "ACLPluginEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [],
+  "CreatedByURL": "https://nfrechette.github.io/",
+  "DocsURL": "https://github.com/nfrechette/acl-ue4-plugin/tree/v2.0.0"
+}

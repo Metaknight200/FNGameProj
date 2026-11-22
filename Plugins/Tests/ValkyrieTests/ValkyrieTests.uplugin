@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Valkyie Tests",
+  "Description": "",
+  "Category": "Epic Internal",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": []
+}

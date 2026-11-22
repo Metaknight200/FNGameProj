@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Network Forwarding Channels Plugin",
+  "Description": "Networking Data Channels that can be used for Forward data from a single Channel on a Server Connection to multiple Channels across multiple Client Connections.",
+  "Category": "Voice",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "ForwardingChannels",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": []
+}

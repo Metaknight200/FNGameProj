@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "MoleEnvironments",
+      "Enabled": true
+    },
+    {
+      "Name": "MoleGame",
+      "Enabled": true
+    }
+  ]
+}

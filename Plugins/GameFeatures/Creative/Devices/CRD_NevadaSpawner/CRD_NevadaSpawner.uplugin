@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "CRD_VehicleSpawners",
+      "Enabled": true
+    },
+    {
+      "Name": "Nevada",
+      "Enabled": true
+    }
+  ]
+}

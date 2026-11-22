@@ -1,0 +1,48 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "",
+  "FriendlyName": "",
+  "Description": "",
+  "Category": "",
+  "CreatedBy": "",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "GiftingUI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "CommonUILegacy",
+      "Enabled": true
+    },
+    {
+      "Name": "EpicCMSUIFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "GameFeatures",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineGameplayFramework",
+      "Enabled": true
+    },
+    {
+      "Name": "SocialUMG",
+      "Enabled": true
+    }
+  ]
+}

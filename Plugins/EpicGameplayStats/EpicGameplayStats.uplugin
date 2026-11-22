@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "Version": 2,
+  "VersionName": "1.1.1",
+  "FriendlyName": "Epic Gameplay Stats",
+  "Description": "Gameplay stats (for achievements, quests, leaderboards, etc...)",
+  "Category": "Gameplay",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": false,
+  "EnabledByDefault": false,
+  "Modules": [
+    {
+      "Name": "EpicGameplayStatsRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "GameplayTagsEditor",
+      "Enabled": true
+    }
+  ]
+}

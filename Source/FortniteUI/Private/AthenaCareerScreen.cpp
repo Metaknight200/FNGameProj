@@ -1,0 +1,15 @@
+#include "AthenaCareerScreen.h"
+
+UAthenaCareerScreen::UAthenaCareerScreen() {
+    this->bAutoRestoreFocus = true;
+    this->Text_AccountLevel = NULL;
+    this->Button_Leaderboards = NULL;
+    this->Button_Replays = NULL;
+    this->ListView_FeatTimeline = NULL;
+    this->Text_ChapterContext = NULL;
+    this->Mobile_CloseButton = NULL;
+    this->Text_MobileTabLabel = NULL;
+}
+
+
+
