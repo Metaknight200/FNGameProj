@@ -1,0 +1,6 @@
+#include "FortMobileButtonBehaviorComponent_GameplayMessageTagVisibility.h"
+
+UFortMobileButtonBehaviorComponent_GameplayMessageTagVisibility::UFortMobileButtonBehaviorComponent_GameplayMessageTagVisibility() {
+}
+
+

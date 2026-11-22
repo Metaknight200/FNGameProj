@@ -1,0 +1,6 @@
+#include "FortSettingValueScalarDynamic_Mobile3DResolution.h"
+
+UFortSettingValueScalarDynamic_Mobile3DResolution::UFortSettingValueScalarDynamic_Mobile3DResolution() {
+}
+
+

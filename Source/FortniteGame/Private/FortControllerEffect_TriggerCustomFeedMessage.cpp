@@ -1,0 +1,6 @@
+#include "FortControllerEffect_TriggerCustomFeedMessage.h"
+
+UFortControllerEffect_TriggerCustomFeedMessage::UFortControllerEffect_TriggerCustomFeedMessage() {
+}
+
+

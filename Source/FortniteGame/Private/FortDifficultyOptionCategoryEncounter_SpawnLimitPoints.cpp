@@ -1,0 +1,6 @@
+#include "FortDifficultyOptionCategoryEncounter_SpawnLimitPoints.h"
+
+UFortDifficultyOptionCategoryEncounter_SpawnLimitPoints::UFortDifficultyOptionCategoryEncounter_SpawnLimitPoints() {
+}
+
+

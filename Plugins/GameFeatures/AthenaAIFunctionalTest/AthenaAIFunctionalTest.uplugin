@@ -1,0 +1,38 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Fort Athena AI Functional Test Plugin",
+  "Description": "Plug-in for BR AI to encapsulate Functional Testing code and data.",
+  "Category": "Epic Internal.Fortnite",
+  "CreatedBy": "Epic Games, Inc.",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Modules": [],
+  "Plugins": [
+    {
+      "Name": "IO_Guard",
+      "Enabled": true
+    },
+    {
+      "Name": "Labrador",
+      "Enabled": true
+    },
+    {
+      "Name": "Lager",
+      "Enabled": true
+    },
+    {
+      "Name": "MotherGameplay",
+      "Enabled": true
+    },
+    {
+      "Name": "NPCLibrary",
+      "Enabled": true
+    },
+    {
+      "Name": "Valet",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+#include "FortDifficultyOptionCategoryEncounter_SpawnPointsCurve.h"
+
+UFortDifficultyOptionCategoryEncounter_SpawnPointsCurve::UFortDifficultyOptionCategoryEncounter_SpawnPointsCurve() {
+}
+
+

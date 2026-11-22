@@ -1,0 +1,19 @@
+#include "FortProgressWidget.h"
+
+UFortProgressWidget::UFortProgressWidget() {
+    this->bIsFocusable = true;
+    this->Text_Title = NULL;
+    this->Text_Description = NULL;
+    this->Image_MainIcon = NULL;
+}
+
+void UFortProgressWidget::SetTitle(FText Title) {
+}
+
+void UFortProgressWidget::SetIcon(FSlateBrush IconBrush) {
+}
+
+void UFortProgressWidget::SetDescription(FText Description) {
+}
+
+

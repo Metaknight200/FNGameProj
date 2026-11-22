@@ -1,0 +1,6 @@
+#include "FortMobileButtonBehaviorComponent_PlayerTagIconPicker.h"
+
+UFortMobileButtonBehaviorComponent_PlayerTagIconPicker::UFortMobileButtonBehaviorComponent_PlayerTagIconPicker() {
+}
+
+

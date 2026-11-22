@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_NPCHasServiceProviderTag.h"
+
+UFortControllerRequirement_NPCHasServiceProviderTag::UFortControllerRequirement_NPCHasServiceProviderTag() {
+}
+
+

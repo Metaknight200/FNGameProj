@@ -1,0 +1,37 @@
+#include "FortWeap_BuildingTool.h"
+#include "Net/UnrealNetwork.h"
+
+AFortWeap_BuildingTool::AFortWeap_BuildingTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+    this->WeaponCoreAnimation = EFortWeaponCoreAnimation::PaperBlueprint;
+    this->BlueprintPaperMaterial = NULL;
+    this->BlueprintDiffuseTextures[0] = NULL;
+    this->BlueprintDiffuseTextures[1] = NULL;
+    this->BlueprintDiffuseTextures[2] = NULL;
+    this->BlueprintDiffuseTextures[3] = NULL;
+    this->BlueprintDiffuseTextures[4] = NULL;
+    this->BlueprintDiffuseTextures[5] = NULL;
+    this->BlueprintEmissiveMaskTextures[0] = NULL;
+    this->BlueprintEmissiveMaskTextures[1] = NULL;
+    this->BlueprintEmissiveMaskTextures[2] = NULL;
+    this->BlueprintEmissiveMaskTextures[3] = NULL;
+    this->BlueprintEmissiveMaskTextures[4] = NULL;
+    this->BlueprintEmissiveMaskTextures[5] = NULL;
+    this->BlueprintPaperPulseCurve = NULL;
+    this->DefaultMetadata = NULL;
+    this->BlueprintPaperMID = NULL;
+    this->LastResourceType = EFortResourceType::None;
+}
+
+void AFortWeap_BuildingTool::OnRep_DefaultMetadata(UBuildingEditModeMetadata* OldMetadata) {
+}
+
+void AFortWeap_BuildingTool::OnBlueprintPaperPulseUpdate(float InCurveVal) {
+}
+
+void AFortWeap_BuildingTool::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
+    Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+    
+    DOREPLIFETIME(AFortWeap_BuildingTool, DefaultMetadata);
+}
+
+

@@ -1,0 +1,7 @@
+#include "FortDifficultyOptionCategoryEncounter_ModifierTags.h"
+
+UFortDifficultyOptionCategoryEncounter_ModifierTags::UFortDifficultyOptionCategoryEncounter_ModifierTags() {
+    this->bIsStatic = true;
+}
+
+

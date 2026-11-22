@@ -1,0 +1,6 @@
+#include "FortDifficultyOptionCategoryEncounter_IntensityCurveSequence.h"
+
+UFortDifficultyOptionCategoryEncounter_IntensityCurveSequence::UFortDifficultyOptionCategoryEncounter_IntensityCurveSequence() {
+}
+
+

@@ -1,0 +1,6 @@
+#include "FortConversationContextCondition_ParticipantHasOwnedTag.h"
+
+UFortConversationContextCondition_ParticipantHasOwnedTag::UFortConversationContextCondition_ParticipantHasOwnedTag() {
+}
+
+

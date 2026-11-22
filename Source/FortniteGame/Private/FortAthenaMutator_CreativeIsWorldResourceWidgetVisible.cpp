@@ -1,0 +1,6 @@
+#include "FortAthenaMutator_CreativeIsWorldResourceWidgetVisible.h"
+
+AFortAthenaMutator_CreativeIsWorldResourceWidgetVisible::AFortAthenaMutator_CreativeIsWorldResourceWidgetVisible(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
+}
+
+

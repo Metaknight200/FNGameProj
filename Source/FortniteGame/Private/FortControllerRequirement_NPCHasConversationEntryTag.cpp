@@ -1,0 +1,6 @@
+#include "FortControllerRequirement_NPCHasConversationEntryTag.h"
+
+UFortControllerRequirement_NPCHasConversationEntryTag::UFortControllerRequirement_NPCHasConversationEntryTag() {
+}
+
+

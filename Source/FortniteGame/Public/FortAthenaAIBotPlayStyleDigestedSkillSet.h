@@ -1,0 +1,30 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ScalableFloat.h"
+#include "EDBNOPlayStyle.h"
+#include "FortAthenaAIBotDigestedSkillSet.h"
+#include "PlaystyleSwitchToAggressiveDataDigested.h"
+#include "FortAthenaAIBotPlayStyleDigestedSkillSet.generated.h"
+
+UCLASS(Blueprintable, NonTransient)
+class UFortAthenaAIBotPlayStyleDigestedSkillSet : public UFortAthenaAIBotDigestedSkillSet {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    FScalableFloat AggressiveTowardsThreatWeight;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    FScalableFloat DefensiveTowardsThreatWeight;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    EDBNOPlayStyle DBNOPlayStyle;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    TArray<FPlaystyleSwitchToAggressiveDataDigested> ChangeToAggressiveData;
+    
+public:
+    UFortAthenaAIBotPlayStyleDigestedSkillSet();
+
+};
+
