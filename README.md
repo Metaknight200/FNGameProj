@@ -1,3 +1,5 @@
+This is my very first time making a uproject so it probably has some issues and I have only tested skins and loading screens but everything else should work
+
 # FNGameProj-17.50
 > This is a Unreal Project for modding a old Version of Fortnite (17.50) which has every c++ class recreated
 
